@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">NewsApp1</string>
+    <string name="btn_media_next1">Next</string>
+    <string name="btn_media_back_step1">Back</string>
+    <string name="btn_media_final_step1">Submit the guide</string>
+    <string name="set_media_max_items1">4</string>
+    <string name="txt_media_other1">&#160;out of&#160;</string>
+    <string name="btn_media_reset1">Reset</string>
+    <string name="intro_media">Please check all your article.</string>
+    <string name="intro_media_notes1">Step 1/5</string>
+    <string name="intro_media_notes2">Step 2/5</string>
+    <string name="intro_media_notes3">Step 3/5</string>
+    <string name="intro_media_notes4">Step 4/5</string>
+    <string name="any_other_feedback">Your name</string>
+    <string name="msg_feedback_confirmation">Thank you for providing your article.</string>
+    <string name="msg_feedback_final_confirmation">We thank you for your time spent.</string>
+    <string name="txt_tbl_title_downloads1">Downloads</string>
+    <string name="txt_tbl_title_articles1">Articles</string>
+    <string name="txt_tbl_title_feeds1">Feeds</string>
+    <string name="txt_tbl_cal_items_downloads1">10</string>
+    <string name="txt_tbl_cal_items_articles1">400K</string>
+    <string name="txt_tbl_cal_items_feeds1">1 Billion</string>
+    <string name="txt_tbl_header_headline1">Your central place to organize, read, and share the information.</string>
+    <string name="txt_tbl_header_logo_alt1">News App</string>
+    <string name="txt_tbl_feature_list_video_alt1">News App</string>
+    <string name="txt_sec_1_cat_1_cpromos_title_1">Show article</string>
+    <string name="txt_sec_1_cat_1_cpromos_title_2">Read more/string></string>
+    <string name="no_feeds">No feeds found.</string>
+    <string name="no_internet_connection">no_internet_connection</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Feed Settings</string>
+    <string name="settings_max_feed_label">Maximum feeds</string>
+    <string name="settings_max_feed_key" translatable="false">page_size</string>
+    <string name="settings_max_feed_default" translatable="false">10</string>
+    <string name="settings_max_feed_hint">10</string>
+    <string name="settings_min_date_feed_label">Minimum feed date</string>
+    <string name="settings_min_date_feed_key" translatable="false">min_date</string>
+    <string name="settings_min_date_feed_default" translatable="false">01/08/2018</string>
+    <string name="settings_min_date_feed_hint">DD/MM/YYYY</string>
+    <string name="settings_max_date_feed_label">Maximum feed date</string>
+    <string name="settings_max_date_feed_key" translatable="false">max_date</string>
+    <string name="settings_max_date_feed_default" translatable="false">""</string>
+    <string name="settings_max_date_feed_hint">DD/MM/YYYY</string>
+    <string name="settings_section_feed_label">Section feed</string>
+    <string name="settings_section_feed_key" translatable="false">section</string>
+    <string name="settings_section_feed_default" translatable="false">@string/settings_section_feed_all_label</string>
+    <string name="settings_section_feed_hint">Business</string>
+    <string name="settings_section_feed_all_label">All</string>
+    <string name="settings_section_feed_all_value" translatable="false">all</string>
+    <string name="settings_section_feed_business_label">Business</string>
+    <string name="settings_section_feed_business_value" translatable="false">business</string>
+    <string name="settings_section_feed_politics_label">Politics</string>
+    <string name="settings_section_feed_politics_value" translatable="false">politics</string>
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_most_recent_feed_value</string>
+    <string name="settings_order_by_most_recent_feed_label">Most recent</string>
+    <string name="settings_order_by_most_recent_feed_value" translatable="false">newest</string>
+    <string name="settings_order_by_oldest_feed_label">Oldest feed</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+    <string name="category_today">Today</string>
+    <string name="category_readlater">Read later</string>
+    <string name="category_recentlyread">Recently</string>
+    <string name="category_filters">Filters</string>
+    <string name="tools_txt_item1">Mar 6, 2010</string>
+    <string name="tools_txt_item2">3:00 PM</string>
+    <string name="tools_txt_item3">Title name</string>
+    <string name="tools_txt_item4">Section name</string>
+</resources>

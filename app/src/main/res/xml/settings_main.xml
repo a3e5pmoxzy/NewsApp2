@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_max_feed_default"
+        android:hint="@string/settings_max_feed_hint"
+        android:inputType="number"
+        android:key="@string/settings_max_feed_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_max_feed_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_min_date_feed_default"
+        android:hint="@string/settings_min_date_feed_hint"
+        android:inputType="date"
+        android:key="@string/settings_min_date_feed_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_min_date_feed_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_max_date_feed_default"
+        android:hint="@string/settings_max_date_feed_hint"
+        android:inputType="date"
+        android:key="@string/settings_max_date_feed_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_max_date_feed_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_section_feed_default"
+        android:entries="@array/setting_section_by_label"
+        android:entryValues="@array/setting_section_by_value"
+        android:hint="@string/settings_section_feed_hint"
+        android:key="@string/settings_section_feed_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_section_feed_label" />
+
+</PreferenceScreen>

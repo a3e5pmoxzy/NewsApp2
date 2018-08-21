@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/linear_layout_padding_end"
+    android:paddingLeft="@dimen/linear_layout_padding_left"
+    android:paddingRight="@dimen/linear_layout_padding_right"
+    android:paddingStart="@dimen/linear_layout_padding_start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/linear_layout_padding_end"
+        android:paddingLeft="@dimen/linear_layout_padding_left"
+        android:paddingRight="@dimen/linear_layout_padding_right"
+        android:paddingStart="@dimen/linear_layout_padding_start">
+
+        <TextView
+            android:id="@+id/fullnameauthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/textColorFeedDetails"
+            android:textSize="@dimen/txtview_txt_size1"
+            tools:text="Full name author" />
+
+        <LinearLayout
+            android:layout_width="@dimen/linear_layout_widthof0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/linear_layout_marginleft"
+            android:layout_marginStart="@dimen/linear_layout_marginstart"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/linear_layout_marginleft"
+                android:layout_marginStart="@dimen/linear_layout_marginstart"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textColor="@color/textColorFeedDetails"
+                    android:textSize="@dimen/txtview_txt_size1"
+                    android:textStyle="bold"
+                    tools:text="@string/tools_txt_item1" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textColor="@color/textColorFeedDetails"
+                    android:textSize="@dimen/txtview_txt_size1"
+                    tools:text="@string/tools_txt_item2" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titlename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/textColorFeedDetails"
+            android:textSize="@dimen/txtview_txt_size1"
+            tools:text="@string/tools_txt_item3" />
+
+        <TextView
+            android:id="@+id/feedsection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textAllCaps="true"
+            android:textColor="@color/textColorFeedDetails"
+            android:textSize="@dimen/txtview_txt_size1"
+            android:textStyle="bold"
+            tools:text="@string/tools_txt_item4" />
+
+    </LinearLayout>
+
+</LinearLayout>
